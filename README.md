@@ -1,4 +1,4 @@
-# E-ink Calendar 📅
+# E-ink Calendar
 
 为电子墨水屏设备（如 Kindle、掌阅等）优化的精美日历时钟应用
 
@@ -6,47 +6,47 @@
 ![Android](https://img.shields.io/badge/Android-26%2B-blue)
 ![Build Status](https://github.com/YOUR_USERNAME/eink-calendar/actions/workflows/android-build.yml/badge.svg)
 
-## ✨ 主要特性
+## 主要特性
 
-### 📱 多视图支持
+### 多视图支持
 - **月视图** - 整月日历概览，高效查看整月日程
 - **周视图** - 按小时划分的周计划，详细查看时间安排
 - **日视图** - 一天的完整日程，包括时间、位置、描述
 - **议程视图** - 简化的事件列表，快速查看即将来临的事件
 
-### 🎨 墨水屏优化
+### 墨水屏优化
 - **智能刷新模式** - 自动在 8 次部分刷新后执行完全刷新，清除残影
 - **无动画设计** - 禁用不必要的过渡和动画，节省电量和刷新次数
 - **黑白配色** - 简洁的黑白设计，完美适配墨水屏显示
 - **大字体选项** - 为墨水屏用户提供舒适的阅读体验
 
-### 📅 日历功能
+### 日历功能
 - **系统日历集成** - 直接读取 Android 系统日历数据
 - **多日历支持** - 同时显示多个日历，支持不同颜色区分
 - **事件详情** - 显示事件标题、时间、位置、描述
 - **事件提醒** - 支持通知、邮件、闹铃等多种提醒方式
 - **重复事件** - 支持日/周/月/年重复规则
 
-### 🔄 同步功能
+### 同步功能
 - **自动同步** - 可配置的同步间隔（默认 30 分钟）
 - **后台同步** - 使用 WorkManager 进行后台数据同步
 - **智能同步** - 仅同步变化的数据，节省流量和电量
 
-### ⚙️ 设置项
+### 设置项
 - 通知开关
 - 同步间隔设置
 - 主题选择（浅色/深色）
 - 字体大小调整
 - 刷新模式设置
 
-## 📋 系统需求
+## 系统需求
 
 - **最低 Android 版本**: Android 8.0 (API 26)
 - **目标 Android 版本**: Android 15 (API 35)
 - **Java 版本**: 17+
 - **构建工具**: Gradle 8.2.0+
 
-## 🏗️ 项目架构
+## 项目架构
 
 ### 分层设计 (Clean Architecture)
 
@@ -84,7 +84,7 @@
 - **Flow & StateFlow** - 响应式数据流
 - **Android CalendarContract** - 系统日历数据提供者
 
-## 🚀 快速开始
+## 快速开始
 
 ### 克隆项目
 
@@ -125,7 +125,7 @@ cd eink-calendar
 ./gradlew test
 ```
 
-## 📦 依赖项
+## 依赖项
 
 ### 核心库
 - **androidx.core:core-ktx** - Kotlin 扩展库
@@ -149,7 +149,7 @@ cd eink-calendar
 - **com.squareup.retrofit2:retrofit** - HTTP 客户端 (天气 API)
 - **com.squareup.okhttp3:okhttp** - HTTP 库
 
-## 🎯 墨水屏优化详解
+## 墨水屏优化详解
 
 ### 刷新模式
 
@@ -188,7 +188,7 @@ E-ink 屏幕有三种刷新模式：
 - 后台任务批处理
 - 支持睡眠模式
 
-## 📝 配置指南
+## 配置指南
 
 ### 同步间隔设置
 
@@ -216,7 +216,7 @@ mainViewModel.setRefreshMode("SMART")  // FULL, PARTIAL, SMART
 - `INTERNET` - 网络通信
 - `POST_NOTIFICATIONS` - 发送通知
 
-## 🤝 开发指南
+## 开发指南
 
 ### 代码规范
 
@@ -245,7 +245,7 @@ test: 测试相关
 chore: 构建系统或依赖更新
 ```
 
-## 🔄 CI/CD 流程
+## CI/CD 流程
 
 ### GitHub Actions 工作流
 
@@ -275,7 +275,7 @@ chore: 构建系统或依赖更新
 ./gradlew lint
 ```
 
-## 🐛 故障排除
+## 故障排除
 
 ### 常见问题
 
@@ -288,7 +288,7 @@ chore: 构建系统或依赖更新
 **Q: 墨水屏不显示更新**
 - A: 检查刷新模式设置，尝试手动触发完全刷新
 
-## 📊 性能指标
+## 性能指标
 
 目标性能指标（针对墨水屏优化）：
 
@@ -298,21 +298,21 @@ chore: 构建系统或依赖更新
 - **内存占用** < 50 MB
 - **电池消耗** < 5% 每天（含同步）
 
-## 📄 许可证
+## 许可证
 
 本项目使用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
 
-## 👥 贡献者
+## 贡献者
 
 欢迎提交 Issue 和 Pull Request！
 
-## 🙋 技术支持
+## 技术支持
 
 - **文档**: 查看 [docs](docs/) 目录
 - **问题**: 在 GitHub Issues 中提交
 - **讨论**: 在 GitHub Discussions 中讨论
 
-## 🔗 参考项目
+## 参考项目
 
 本项目参考了以下开源项目的最佳实践：
 
@@ -321,11 +321,11 @@ chore: 构建系统或依赖更新
 - [Material Calendar View](https://github.com/Applandeo/Material-Calendar-View) - 日历控件
 - [Inkycal](https://github.com/aceinnolab/Inkycal) - 模块化仪表板
 
-## 📮 联系方式
+## 联系方式
 
 - GitHub: [YOUR_USERNAME](https://github.com/YOUR_USERNAME)
 - Email: your.email@example.com
 
 ---
 
-Made with ❤️ for E-ink Device Users
+Made for E-ink Device Users
