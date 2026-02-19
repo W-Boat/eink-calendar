@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-ink Calendar</string>
+    <string name="app_description">为电子墨水屏设备优化的日历应用</string>
+
+    <!-- 视图标题 -->
+    <string name="title_month">月视图</string>
+    <string name="title_day">日视图</string>
+    <string name="title_agenda">日程</string>
+
+    <!-- 按钮标签 -->
+    <string name="btn_today">今天</string>
+    <string name="btn_previous">上一个</string>
+    <string name="btn_next">下一个</string>
+    <string name="btn_refresh">刷新</string>
+    <string name="btn_settings">设置</string>
+
+    <!-- 菜单项 -->
+    <string name="menu_settings">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_help">帮助</string>
+
+    <!-- 信息提示 -->
+    <string name="msg_no_events">今天没有事件</string>
+    <string name="msg_loading">加载中...</string>
+    <string name="msg_sync_success">同步成功</string>
+    <string name="msg_sync_error">同步失败</string>
+    <string name="msg_permission_required">需要日历权限</string>
+
+    <!-- 设置项 -->
+    <string name="pref_notifications">通知</string>
+    <string name="pref_sync_interval">同步间隔</string>
+    <string name="pref_theme">主题</string>
+    <string name="pref_font_size">字体大小</string>
+    <string name="pref_refresh_mode">刷新模式</string>
+
+    <!-- 其他 -->
+    <string name="copyright">© 2024 E-ink Calendar. All rights reserved.</string>
+
+</resources>

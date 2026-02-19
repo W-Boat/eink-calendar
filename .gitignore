@@ -1,0 +1,42 @@
+# Gradle
+.gradle
+.gradletasknamecache
+build/
+*.apk
+*.aab
+
+# Android Studio
+.idea/
+.classpath
+.project
+*.iml
+*.iws
+*.ipr
+.DS_Store
+*.log
+*.swp
+
+# Android
+local.properties
+proguard/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Output
+out/
+
+# Signing keys
+*.keystore
+*.jks
+*.pem
+key.properties
+signing.properties
+
+# Misc
+*.sublime-workspace
+.vscode/
+.claude/
+
+# Generated files
+generated/

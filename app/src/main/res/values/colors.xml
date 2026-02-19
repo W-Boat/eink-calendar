@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础颜色 - 墨水屏友好的黑白配色 -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_gray">#333333</color>
+    <color name="medium_gray">#888888</color>
+
+    <!-- 浅色主题 -->
+    <color name="primary_light">#FFFFFF</color>
+    <color name="primary_dark_light">#000000</color>
+    <color name="secondary_light">#F5F5F5</color>
+    <color name="secondary_dark_light">#333333</color>
+
+    <!-- 深色主题 -->
+    <color name="primary_dark">#1C1C1C</color>
+    <color name="primary_dark_dark">#FFFFFF</color>
+    <color name="secondary_dark">#2D2D2D</color>
+    <color name="secondary_dark_dark">#E0E0E0</color>
+
+    <!-- 事件颜色 -->
+    <color name="event_blue">#1E3A8A</color>
+    <color name="event_red">#7F1D1D</color>
+    <color name="event_green">#15803D</color>
+    <color name="event_purple">#5B21B6</color>
+    <color name="event_orange">#92400E</color>
+
+    <!-- 状态颜色 -->
+    <color name="color_success">#2D5016</color>
+    <color name="color_error">#7F1D1D</color>
+    <color name="color_warning">#92400E</color>
+    <color name="color_info">#1E3A8A</color>
+
+    <!-- 边框 -->
+    <color name="border_light">#E0E0E0</color>
+    <color name="border_dark">#333333</color>
+
+    <!-- 透明色 -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#80000000</color>
+</resources>
