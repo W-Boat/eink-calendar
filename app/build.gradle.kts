@@ -107,6 +107,10 @@ dependencies {
     // SwipeRefreshLayout
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
 
+    // Calendar libraries
+    // tyme4j - Traditional Chinese calendar (lunar, solar terms, etc.)
+    implementation("cn.6tail:tyme4j:1.7.0")
+
     // Testing
     testImplementation("junit:junit:4.13.2")
     testImplementation("androidx.arch.core:core-testing:2.2.0")

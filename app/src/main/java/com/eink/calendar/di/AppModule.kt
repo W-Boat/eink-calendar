@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.ContentResolver
 import com.eink.calendar.data.local.CalendarContentProvider
 import com.eink.calendar.data.repository.CalendarRepository
+import com.eink.calendar.utils.MultiCalendarConverter
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -40,5 +41,11 @@ object AppModule {
         contentProvider: CalendarContentProvider
     ): CalendarRepository {
         return CalendarRepository(contentProvider)
+    }
+
+    @Singleton
+    @Provides
+    fun provideMultiCalendarConverter(): MultiCalendarConverter {
+        return MultiCalendarConverter()
     }
 }
